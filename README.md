@@ -3,7 +3,7 @@
 
 Needs to be in both mobile and desktop.
 
-Color Palette: 
+** Color Palette: **
 Background #d9deff - light blue
 Text #0d0ela - midnight blue
 Primary #ea5e36 - orange
