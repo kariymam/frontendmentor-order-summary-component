@@ -1,14 +1,15 @@
-@import "assets/sass-flexbox/scss/main.scss";
+@import url('http://fonts.googleapis.com/css?family=Erica+One&display=swap');
+@import url("/assets/sass-flexbox/main.css");
 
-$padding: 6px;
-
-body {
+html {
+    padding-left: 24px;
+    padding-right: 24px;
 
 }
 
 h1 {
     font-family: 'Erica One', 'sans-serif';
-    font-size: 48px;
+    font-size: 2em;
 }
 
 nav {
