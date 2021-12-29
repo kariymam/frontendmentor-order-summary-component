@@ -1,40 +1,42 @@
-## Color Palette
-Background #d9deff - light blue
-Text #0d0ela - midnight blue
-Primary #ea5e36 - orange
-Accent #321545 - dark purple
-Muted #182142 - dark blue
-Border #0d0ela - night blue
+# Content
 
-## Content
-You're almost there!
-Order Summary
 
-Entenmann's Rich Frosted Donuts
-x1
+## you're almost there!
 
-smartwater Water
-x2
+### confirm your order
+
+smartwater Water (x2) - $2.98
+
+Entenmann's Rich Frosted Donuts(x1) - $4.39
 
 Richards Wild Irish Rose Moscato White Wine
-x1
+(x2) - $8.78
 
-SKYN Condoms Original 
-3 each
-x1
+Delivery Fee: $5.99  
+Tax: $0.96  
+__Total: $20.70__
 
-Total 
 
-Deliver to:
+---
+
+__Payment Method__  
+Visa *1234  
+(Btn: Edit)
+
+__Billing Address__  
+Same as delivery
+
+(btn: Update)
+
+-----
+
+__Deliver to:__  
 3131 Evergreen Lane
-Rancho Dominguez, CA 90220
+Rancho Dominguez, CA 90220\ 
 (Btn: Edit)
 
-Billing address:
-Same as delivery address
-(Btn: Edit)
 
-Subtotal: 
-Delivery $5.99
-Estimated tax: $0.96
+
+### looks good?
+
 (CTA: Place Your Order)
