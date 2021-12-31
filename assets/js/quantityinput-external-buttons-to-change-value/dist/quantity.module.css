@@ -1,0 +1,28 @@
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 1em;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em;
+  color: hsl(228, 33, 6, 1);
+}
+ 
+.btn {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}

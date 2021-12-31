@@ -1,31 +1,118 @@
 @import url('http://fonts.googleapis.com/css?family=Erica+One&display=swap');
 @import url("/assets/sass-flexbox/main.css");
+@import url(/assets/js/quantityinput-external-buttons-to-change-value/dist/quantity.module.css);
 
-html {
-    padding-left: 24px;
-    padding-right: 24px;
+* {
+  margin: 0;
+  padding: 0;
+}
 
+:root {
+  --display-font-family: 'Erica One', Helvetica, sans-serif;
+  --primary-font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+  --secondary-font-family: 'IBM Plex Mono', Helvetica, sans-serif;
 }
 
 body {
-  background: #D9DEFF;
+  background-color: hsl(232, 100%, 93%);
   color: hsl(227,  47%, 18%, 1);
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 h1 {
-    font-family: 'Erica One', 'sans-serif';
-    font-size: 3em;
-    justify-content: center;
-    text-align: center;
-    line-height: 1.25em;
+  font: normal 48px/72px var(--display-font-family);
+  justify-content: center;
+  text-align: center;
+}
+
+h2 {
+  /* h2/2.25em regular */
+    font: normal 36px/47px var(--primary-font-family);
+    letter-spacing: -0.005em;
+}
+
+p {
+  font: normal 16px/19px var(--primary-font-family);
+  
+}
+
+.regular-lg {
+  font: normal 20px/26px var(--secondary-font-family);
+  text-align: right;
+  letter-spacing: -0.005em;
+}
+
+.mono-display {
+  font: normal 36px/47px var(--secondary-font-family);
+  letter-spacing: -0.005em;
+}
+
+.caption {
+  font: bold small var(--primary-font-family);
+}
+
+.header {
+  padding-bottom: 24px;
 }
 
 /* Card - Block */
-.card__container {
-  
+.card {
+    align-items: flex-start;
+    padding: 36px;
+    max-width: 688px;
+    height: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0.05px 0.75px 0.5px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    border: 1px solid hsl(232, 100%, 93%);
 }
 
 /* Card - Elements */
 
+.card__item {
+  padding-bottom: 1em;
+}
+
+.card__item-quantity {
+  margin-top: 8px;
+  align-items: center;
+  padding-right: 1em;
+}
+
+ion-icon {
+  font-size: 1em;
+  margin-left: 4px;
+}
+
+.card__item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 48px;
+  overflow: hidden;
+  border: 1px solid hsl(232, 100%, 93%);
+}
+
+.card__divider-hor {
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid hsl(232, 100%, 93%);
+}
+
+.card__divider-ver {
+  width: 8px;
+  height: 16px;
+  margin-left: 8px;
+  border-left: 2px solid rgb(174, 186, 228);
+}
+
+.card__total {
+  text-align: right;
+}
+
+.card__total p {
+  padding-bottom: 8px;
+}
 
 /* Card - Modifiers */
+
