@@ -20,7 +20,7 @@
 
         </nav>
 
-            <div class="row center-xs col-xs-12">
+        <div class="row center-xs col-xs-12">
                 <h1 class="header">
                     you're almost there!
                 </h1>
@@ -32,7 +32,7 @@
                 <!-- item 1-->
                 <div class="row card__item">
                     <img src="/assets/img/smartwater.jpeg" alt="">
-                    <div class="col card__item-detail">
+                    <div class="col-lg-1 card__item-detail">
                         <p>
                                 smartwater Water
                         </p>
@@ -43,10 +43,10 @@
                                     <input type='button' value='+' class='qtyplus plus btn' field='quantity' />
                                   </form>
                                 <div class="card__divider-ver"></div>
-                                <p class="caption">Remove</p><ion-icon name="trash"></ion-icon>
+                                <p class="btn text-sm">Remove</p><ion-icon name="trash"></ion-icon>
                         </div>  
                     </div>
-                    <div class="col col-xs-2">
+                    <div class="col">
                         <p class="regular-lg">
                             $2.98
                         </p>
@@ -56,7 +56,7 @@
                 <!-- item 2-->
                 <div class="row card__item">
                     <img src="/assets/img/minidonuts.jpg" alt="">
-                    <div class="col card__item-detail">
+                    <div class="col-lg-1 card__item-detail">
                         <p>
                             Entenmann's Rich Frosted Donuts
                         </p>
@@ -67,10 +67,10 @@
                                     <input type='button' value='+' class='qtyplus plus btn' field='quantity' />
                                   </form>
                                 <div class="card__divider-ver"></div>
-                                <p class="caption">Remove</p><ion-icon name="trash"></ion-icon>
+                                <p class="btn text-sm">Remove</p><ion-icon name="trash"></ion-icon>
                         </div>  
                     </div>
-                    <div class="col col-xs-2">
+                    <div class="col">
                         <p class="regular-lg">
                             $4.39
                         </p>
@@ -80,7 +80,7 @@
                 <!-- item 3-->
                 <div class="row card__item">
                     <img src="/assets/img/wildirishroses.jpg" alt="">
-                    <div class="col card__item-detail">
+                    <div class="col-lg-1 card__item-detail">
                         <p>
                             Richards Wild Irish Rose Moscato White Wine
                         </p>
@@ -91,10 +91,11 @@
                                     <input type='button' value='+' class='qtyplus plus btn' field='quantity' />
                                   </form>
                                 <div class="card__divider-ver"></div>
-                                <p class="caption">Remove</p><ion-icon name="trash"></ion-icon>
+                                <p class="btn text-sm">Remove</p>
+                                <ion-icon name="trash"></ion-icon>
                         </div>  
                     </div>
-                    <div class="col col-xs-2">
+                    <div class="col">
                         <p class="regular-lg">
                             $8.78
                         </p>
@@ -102,25 +103,45 @@
                 </div>
                     <!-- total-->
                     <div class="row card__total">
-                        <div class="col-xs-offset-8 col-xs-4">
+                        <div class="col">
                             <p>Delivery Fee: $5.99</p>
                             <p>Tax: $0.96</p>
                             <h2 class="mono-display">$20.70</h2>
                         </div>
                     </div>
-                <div class="card__divider-hor"></div>
+            <div class="card__divider-hor"></div>
+            
             <!-- payment method -->
-            <div class="row"></div>
+
+            <div class="row card__detail">
                 <div class="col">
-                    
+                    <p class="label">Payment Method</p>
+                    <p>Visa *1234</p>
                 </div>  
-                <div class="col"></div>  
+                <div class="col">
+                    <p class="label">Billing Address</p>
+                    <p>Same as delivery</p>
+                </div>
+                <div class="col btn text-lg">
+                    <button type="button" class="btn text-lg">Update</button>
+                </div>
             </div>
-
-
+            <div class="card__divider-hor"></div>
+            
+            <!-- delivery address -->
+            <div class="row card__detail">
+                <div class="col-xs-8">
+                    <p class="label">Delivery Address</p>
+                    <p>3131 Evergreen Lane
+                        Rancho Dominguez, CA 90220</p>
+                </div>
+                <div class="col btn text-lg">
+                    <button type="button" class="btn text-lg">Edit</button>
+                </div>
+            </div>
+            <button class="btn primary">Place Your Order</button>
         </div>
         
-          
           <!-- partial -->
             <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./assets/js/quantityinput-external-buttons-to-change-value/dist/form.module.js"></script>
             <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
